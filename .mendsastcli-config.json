@@ -2,7 +2,8 @@
   "scans": {
     "timeouts": {
       "perLanguage": 900,
-      "perFile": 300
+      "perFile": 300,
+      "perScan": 900
     }
   }
 }
