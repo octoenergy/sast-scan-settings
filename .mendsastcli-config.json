@@ -1,10 +1,10 @@
 {
-  "scans": {
-    "timeouts": {
-      "perLanguage": 30000000,
-      "perFile": 180,
-      "perScan": 30000000
-    },
-    "exclusions":[".direnv", "src/tests", "migrations"]
-  }
+ "scans": {
+        "exclusions":[".direnv", "src/tests", "migrations"],
+        "timeouts": {
+            "perFile": 180
+            "perLanguage": 30000000
+            "perScan": 30000000
+        }
+    } 
 }
