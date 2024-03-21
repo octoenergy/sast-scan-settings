@@ -1,6 +1,6 @@
 {
  "scans": {
-        "exclusions":[".direnv", "src/tests", "migrations"],
+        "pathExclusions":[".direnv", "src/tests", "migrations"],
         "timeouts": {
             "perFile": 180,
             "perLanguage": 30000000,
